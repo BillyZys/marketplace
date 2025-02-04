@@ -6,7 +6,7 @@ jobs:
      runs-on: ubuntu-latest
      steps:
      - name: Check out code
-       uses: actions/cehckout@v2
+       uses: actions/checkout@v2
      - name: Check syntax errors
        uses: cclauss/Find-Python-syntax-errors-action@v0.2.0
     
